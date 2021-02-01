@@ -3,7 +3,7 @@ import {
   FILTER_BY_NUMERIC_VALUES,
   REMOVE_FILTER_BY_NUMERIC_VALUES,
   ORDER_COLUMN, 
-} from '../reducers/RequestPlanets.jsx';
+} from '../services/RequestPlanets.jsx';
 
 const INITIAL_STATE = {
   filterByName: { name: '' },

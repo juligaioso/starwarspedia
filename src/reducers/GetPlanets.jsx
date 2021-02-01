@@ -13,7 +13,7 @@ const INITIAL_STATE = {
   },
 };
 
-export const getPlanets = (state = INITIAL_STATE, action) => {
+export const GetPlanets = (state = INITIAL_STATE, action) => {
   switch (action.type) {
     case REQUEST_PLANETS:
       return { ...state, isFetching: true };

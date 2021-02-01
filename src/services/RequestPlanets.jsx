@@ -45,11 +45,11 @@ export const orderColumns = (column, sort) => ({
   sort,
 });
 
-export default function fetchplanets() {
+export function fetchplanets() {
   return (dispatch) => {
     dispatch(resquestPlanets());
 
-    return planetsAPI().then(
+    return Planets().then(
       (json) => dispatch(successPlanets(json.results)),
       (error) => dispatch(failurePlanets(error)),
     );
