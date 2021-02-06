@@ -1,11 +1,15 @@
-import React from "react";
-import "./App.css";
-import Home from "./components/Home";
-
-export default function App() {
+import React from 'react';
+import MainContainer from './components/MainContainer';
+import './App.css';
+// ToDo
+// Refract Filter.js export some function
+// porque precise de this ?
+function App() {
   return (
     <div className="App">
-      <Home />
+      <MainContainer />
     </div>
   );
 }
+
+export default App;
