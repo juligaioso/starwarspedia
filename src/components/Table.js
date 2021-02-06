@@ -24,7 +24,7 @@ class Table extends React.Component {
 
     return (
       <div className="tableRow">
-        <MDBTable small>
+        <MDBTable hover>
           <MDBTableHead>
             <tr>
               {tableHeaders.map((header) => (
